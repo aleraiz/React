@@ -1,12 +1,32 @@
+$primary-color:#f8d134;
+
 .text-yellow {
-  color: #f8d134;
+  color: $primary-color;
   text-decoration: none;
 }
+
+// $primary-color: #f8d134;
+
+// li {
+//   color: $primary-color;
+
+//     a {
+//       color: $primary-color;
+//     }
+// }
+
+// .App-logo {
+//   height: 40px;
+//   pointer-events: none;
+// }
+
+
 
 /* .App {
   text-align: center;
 }
 */
+
 /*
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -66,4 +86,3 @@ a:hover{
     transform: rotate(360deg);
   }
 } */
-/*# sourceMappingURL=App.css.map */
